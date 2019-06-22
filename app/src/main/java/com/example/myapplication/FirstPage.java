@@ -15,8 +15,6 @@ public class FirstPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_first_page);
-//        Toolbar toolbar = findViewById(R.id.too);
-//        setSupportActionBar(toolbar);
 
         Button back = (Button) findViewById(R.id.btn_back_to_main);
         back.setOnClickListener(new View.OnClickListener() {
@@ -25,6 +23,7 @@ public class FirstPage extends AppCompatActivity {
                 startActivity(new Intent(FirstPage.this, Main.class));
             }
         });
+        
     }
 
 }

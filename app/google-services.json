@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "91556100826",
+    "firebase_url": "https://countingapplicationandroid.firebaseio.com",
+    "project_id": "countingapplicationandroid",
+    "storage_bucket": "countingapplicationandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:91556100826:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "91556100826-5qjfqrva27m0hm71812rn3jfeal5fhvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCggnSqThlpUrrSFhAVlYbQcs-GbQF78DA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "91556100826-5qjfqrva27m0hm71812rn3jfeal5fhvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
