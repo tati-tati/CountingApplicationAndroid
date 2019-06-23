@@ -1,4 +1,4 @@
-#Sat Jun 22 19:35:54 MSK 2019
+#Sun Jun 23 21:55:34 MSK 2019
 base.0=C\:\\Users\\Alexander\\Desktop\\Tatiana\\MyApplication\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
 path.0=classes.dex
 renamed.0=classes.dex

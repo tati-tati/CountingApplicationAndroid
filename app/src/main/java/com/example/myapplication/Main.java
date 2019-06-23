@@ -35,6 +35,14 @@ public class Main extends AppCompatActivity {
         });
         Button addService = (Button) findViewById(R.id.btn_add_service);
         Button addFigures = (Button) findViewById(R.id.btn_enter_figures);
+
+        addFigures.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Main.this, AddNewFigure.class));
+            }
+        });
+
         Button showHistory = (Button) findViewById(R.id.btn_history);
         Button setNotifications = (Button) findViewById(R.id.btn_notification);
     }

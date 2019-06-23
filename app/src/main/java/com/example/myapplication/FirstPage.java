@@ -9,6 +9,9 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.ml.vision.FirebaseVision;
+import com.google.firebase.ml.vision.common.FirebaseVisionImage;
+
 public class FirstPage extends AppCompatActivity {
 
     @Override
@@ -23,7 +26,6 @@ public class FirstPage extends AppCompatActivity {
                 startActivity(new Intent(FirstPage.this, Main.class));
             }
         });
-        
     }
 
 }

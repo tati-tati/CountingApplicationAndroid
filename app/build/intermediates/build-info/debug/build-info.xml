@@ -2,17 +2,17 @@
 <instant-run
     abi="x86"
     api-level="21"
-    build-mode="FULL"
+    build-mode="COLD"
     density="420dpi"
     format="10"
     plugin-version="3.4.1"
-    timestamp="1561226861771"
+    timestamp="1561317450078"
     token="-4129529530274198377"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="787" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -23,52 +23,18 @@
         name="verifier"
         duration="0" />
 
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
-
     <build
         build-mode="FULL"
-        timestamp="1561226861771"
+        timestamp="1561316838087"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -97,9 +63,10 @@
         <artifact
             location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\Alexander\Desktop\Tatiana\MyApplication\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1561317450078"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

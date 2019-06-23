@@ -1112,6 +1112,8 @@ dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1437,6 +1439,8 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_dashboard_black_24dp
+drawable ic_home_black_24dp
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
@@ -1447,6 +1451,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_notifications_black_24dp
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1563,10 +1568,12 @@ id bounce
 id btn_add_service
 id btn_add_user
 id btn_back_to_main
+id btn_back_to_main_add_figure
 id btn_back_to_main_user_data
 id btn_enter_figures
 id btn_history
 id btn_notification
+id btn_open_camera
 id btn_save_user_data
 id buttonPanel
 id calendar_days_header
@@ -1618,6 +1625,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editText_add_new_figure
 id edit_query
 id end
 id enterAlways
@@ -1650,6 +1658,7 @@ id icon_only
 id ifRoom
 id ignore
 id image
+id image_cameraSource
 id info
 id input_Address
 id input_FirstName
@@ -1688,7 +1697,10 @@ id mtrl_picker_header
 id mtrl_picker_header_text
 id mtrl_picker_title_text
 id multiply
+id navigation_dashboard
 id navigation_header_container
+id navigation_home
+id navigation_notifications
 id never
 id noScroll
 id none
@@ -1884,6 +1896,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_new_figure
 layout activity_user_data
 layout content_first_page
 layout content_main
@@ -1936,6 +1949,7 @@ layout test_toolbar
 layout test_toolbar_custom_background
 layout test_toolbar_elevation
 layout test_toolbar_surface
+menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -2024,8 +2038,12 @@ string path_password_strike_through
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_activity_add_new_figures
 string title_activity_first_page
 string title_activity_main
+string title_dashboard
+string title_home
+string title_notifications
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

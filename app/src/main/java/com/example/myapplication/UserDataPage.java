@@ -14,15 +14,19 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class UserDataPage extends AppCompatActivity {
     User user = User.getInstance();
+    private TextInputEditText firstName;
+    private TextInputEditText middleName;
+    private TextInputEditText lastName;
+    private TextInputEditText fullAddress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_data);
-        TextInputEditText firstName = (TextInputEditText) findViewById(R.id.Text_FirstName);
-        TextInputEditText middleName = (TextInputEditText) findViewById(R.id.Text_MiddleName);
-        TextInputEditText lastName = (TextInputEditText) findViewById(R.id.Text_LastName);
-        TextInputEditText fullAddress = (TextInputEditText) findViewById(R.id.Text_FullAddress);
+        firstName = (TextInputEditText) findViewById(R.id.Text_FirstName);
+        middleName = (TextInputEditText) findViewById(R.id.Text_MiddleName);
+        lastName = (TextInputEditText) findViewById(R.id.Text_LastName);
+        fullAddress = (TextInputEditText) findViewById(R.id.Text_FullAddress);
         if (user.getFirstName() != null) firstName.append(user.getFirstName());
         if (user.getMiddleName() != null) middleName.append(user.getMiddleName());
         if (user.getLastName() != null) lastName.append(user.getLastName());
@@ -40,10 +44,6 @@ public class UserDataPage extends AppCompatActivity {
         saveUserData.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                TextInputEditText firstName = (TextInputEditText) findViewById(R.id.Text_FirstName);
-                TextInputEditText middleName = (TextInputEditText) findViewById(R.id.Text_MiddleName);
-                TextInputEditText lastName = (TextInputEditText) findViewById(R.id.Text_LastName);
-                TextInputEditText fullAddress = (TextInputEditText) findViewById(R.id.Text_FullAddress);
                 user.setFirstName(firstName.getText().toString());
                 user.setMiddleName(middleName.getText().toString());
                 user.setLastName(lastName.getText().toString());
