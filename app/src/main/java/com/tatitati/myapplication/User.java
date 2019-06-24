@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.tatitati.myapplication;
 
 import java.util.Date;
 
