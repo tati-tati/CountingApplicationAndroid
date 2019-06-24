@@ -21,7 +21,7 @@ public class Main extends AppCompatActivity {
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Main.this, FirstPage.class));
+                startActivity(new Intent(Main.this, FirstPageActivity.class));
             }
         });
 

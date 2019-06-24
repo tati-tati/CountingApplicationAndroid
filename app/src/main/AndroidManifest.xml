@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity android:name="com.tatitati.myapplication.UserDataPage"></activity>
         <activity
-            android:name="com.tatitati.myapplication.FirstPage"
+            android:name="com.tatitati.myapplication.FirstPageActivity"
             android:label="@string/title_activity_first_page"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

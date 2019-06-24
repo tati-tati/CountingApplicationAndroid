@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class FirstPage extends AppCompatActivity {
+public class FirstPageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +19,7 @@ public class FirstPage extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(FirstPage.this, Main.class));
+                startActivity(new Intent(FirstPageActivity.this, Main.class));
             }
         });
         
