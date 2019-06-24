@@ -29,7 +29,7 @@ public class UserDataPage extends AppCompatActivity {
         backToMain.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(UserDataPage.this, Main.class));
+                startActivity(new Intent(UserDataPage.this, MainActivity.class));
             }
         });
 

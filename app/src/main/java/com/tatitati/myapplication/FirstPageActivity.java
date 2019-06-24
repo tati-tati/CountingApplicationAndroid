@@ -19,7 +19,7 @@ public class FirstPageActivity extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(FirstPageActivity.this, Main.class));
+                startActivity(new Intent(FirstPageActivity.this, MainActivity.class));
             }
         });
         

@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class Main extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class Main extends AppCompatActivity {
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Main.this, FirstPageActivity.class));
+                startActivity(new Intent(MainActivity.this, FirstPageActivity.class));
             }
         });
 
@@ -29,7 +29,7 @@ public class Main extends AppCompatActivity {
         addUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Main.this, UserDataPage.class));
+                startActivity(new Intent(MainActivity.this, UserDataPage.class));
             }
         });
         Button addService = (Button) findViewById(R.id.btn_add_service);
