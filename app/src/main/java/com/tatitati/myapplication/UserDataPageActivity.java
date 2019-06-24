@@ -18,10 +18,10 @@ public class UserDataPageActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_user_data);
 
-        final TextInputEditText firstName = findViewById(R.id.Text_FirstName);
-        final TextInputEditText middleName = findViewById(R.id.Text_MiddleName);
-        final TextInputEditText lastName = findViewById(R.id.Text_LastName);
-        final TextInputEditText fullAddress = findViewById(R.id.Text_FullAddress);
+        TextInputEditText firstName = findViewById(R.id.Text_FirstName);
+        TextInputEditText middleName = findViewById(R.id.Text_MiddleName);
+        TextInputEditText lastName = findViewById(R.id.Text_LastName);
+        TextInputEditText fullAddress = findViewById(R.id.Text_FullAddress);
 
         if (user.getFirstName() != null) firstName.append(user.getFirstName());
         if (user.getMiddleName() != null) middleName.append(user.getMiddleName());
