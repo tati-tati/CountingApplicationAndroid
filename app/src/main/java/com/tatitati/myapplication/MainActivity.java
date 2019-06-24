@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         addUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, UserDataPage.class));
+                startActivity(new Intent(MainActivity.this, UserDataPageActivity.class));
             }
         });
         Button addService = (Button) findViewById(R.id.btn_add_service);
