@@ -11,6 +11,10 @@ import com.google.android.material.textfield.TextInputEditText;
 
 public class UserDataPageActivity extends AppCompatActivity {
     User user = User.getInstance();
+    private TextInputEditText firstName;
+    private TextInputEditText middleName;
+    private TextInputEditText lastName;
+    private TextInputEditText fullAddress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +22,10 @@ public class UserDataPageActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_user_data);
 
-        TextInputEditText firstName = findViewById(R.id.Text_FirstName);
-        TextInputEditText middleName = findViewById(R.id.Text_MiddleName);
-        TextInputEditText lastName = findViewById(R.id.Text_LastName);
-        TextInputEditText fullAddress = findViewById(R.id.Text_FullAddress);
-
+        firstName = findViewById(R.id.Text_FirstName);
+        middleName = findViewById(R.id.Text_MiddleName);
+        lastName = findViewById(R.id.Text_LastName);
+        fullAddress = findViewById(R.id.Text_FullAddress);
         if (user.getFirstName() != null) firstName.append(user.getFirstName());
         if (user.getMiddleName() != null) middleName.append(user.getMiddleName());
         if (user.getLastName() != null) lastName.append(user.getLastName());
